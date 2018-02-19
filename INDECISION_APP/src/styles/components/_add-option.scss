@@ -1,0 +1,27 @@
+.add-option-error {
+    color: $blue;
+    font-style:italic;
+    margin: $m-size 0 0 0;
+    padding: 0 $m-size;
+}
+
+
+.add-option {
+    padding: $m-size;
+    display: flex;
+}
+
+.add-option__text {
+    background: $light-blue;
+    flex-grow: 1;
+    color: lightcyan;
+    margin-right: $s-size;
+    padding:$s-size;
+}
+
+@media(max-width: 45rem) {
+    * {
+        flex-direction: row;
+        color: aliceblue;
+    }
+}
